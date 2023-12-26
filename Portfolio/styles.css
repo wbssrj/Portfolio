@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.caixa-principal {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./imagens/[1]programacao.png);
+    background-color: #191919;
+    background-size: 15%;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.portfolio {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.portfolio span {
+    color: #f9004d;
+}
+
+li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #f9004d;
+    transition: .5s;
+}
+
+.meu-nome {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+h1 {
+    color: white;
+    font-size: 35px;
+}
+
+h1 span {
+    color: #f9004d;
+}
+
+.meu-nome h3 {
+    color: white;
+    font-size: 25px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 60px 15%;
+    background-color: #000000;
+}
+
+section img {
+    height: 300%;
+    border-radius: 100%;
+    border: 2px solid #f9004d;
+    margin-right: 30px;
+}
+
+section div h2 {
+    color: white;
+    font-size: 75px;
+}
+
+section div p {
+    color: #f9004d;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+section div button {
+    color: white;
+    background: #f9004d;
+    height: 50px;
+    width: 170px;
+    font-size: 20px;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+section div button:hover{
+    background-color: black;
+    border: 3px solid #f9004d;
+    transition: 0.5s;
+}
